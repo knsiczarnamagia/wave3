@@ -54,3 +54,21 @@ What should I know to get the most out of WAVE projects? The framework is design
 giving candidates the opportunity to learn from their more experienced colleagues. However, you will benefit more if you
 have prior knowledge or invest extra time in learning during the WAVE project. In this section, you will find a list of
 helpful resources.
+
+## Review protocol
+- Create task with listed requirements that describes its goal
+- Name of task should be concise and clear
+- Commit message template: `scope | short_description`, eg. `fix | user auth`. Scope Keywords: Use the following keywords to categorize the commit:
+    - `feature`: New feature or functionality.
+    - `fix`: Bug fix.
+    - `docs`: Documentation changes.
+    - `format`: Code style changes (formatting, linting).
+    - `refactor`: Code refactoring (no functional changes).
+    - `test`: Adding or modifying tests.
+- PR name template: same as commit
+- Add labels to PR: start/end date
+- Person that open PR should close it
+- Branch naming: `feat/user-authentication`
+- Commits have to pass CI/CD checks before they can be merged
+- All change requests have to be resolved before merge
+- More than half of assigned people should approve to PR would be merged (eg. 5 assigned -> min. 3 people should approve)
